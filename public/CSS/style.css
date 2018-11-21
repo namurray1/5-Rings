@@ -6,12 +6,13 @@ body {
 .jumbotron {
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 600px; 
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
 } 
+/* consider changing the jumbotron to correct the space under video on smaller screens. Or, get ride of video all together and just show an image */
 
  /* .section h1 {
     text-align: center;
@@ -27,14 +28,21 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100% !important;
+    height: auto !important;
 }
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+/* This allows you to have mobile responsive video */
 
 .color-overlay {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgb(47, 53, 141);
+    background-color: rgba(4, 73, 47, 0.726);
     width: 100%;
     height: 100vh;
     opacity: 0.5;
