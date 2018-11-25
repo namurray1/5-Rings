@@ -26,7 +26,28 @@
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto">
+                <li nav-item active>
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li nav-item>
+                    <a class="nav-link" href="#">Coaches</a>
+                </li>
+                <li nav-item dropdown>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown">Info</a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="payment_plans.pdf" target="_blank">Payment Plans</a>
+                        <a class="dropdown-item" href="schedule.html" target="_blank">Schedule</a>
+                        <a class="dropdown-item" href="#">Recipes</a>
+                        <a class="dropdown-item" href="#">Blog</a>
+                    </div>
+                </li>
+                <li nav-item>
+                    <a class="nav-link" href="#">Store</a>
+                </li>
+                <li nav-item>
+                    <a class="nav-link" href="#">Online Coaching</a>
+                </li>
                 <!--adding ml-auto moves nav items to the right-->
                 <!-- <a class="nav-item dropdown dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Information</a>
                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -35,13 +56,13 @@
                    <a class="dropdown-item" href="#">Recipes</a>
                </div> -->
                 <!-- Dropdown menu above. Consider adding schedule, recipes, and pricing -->
-                <a class="nav-item nav-link active" href="#">About</a>
+                <!-- <a class="nav-item nav-link active" href="#">About</a>
                 <a class="nav-item nav-link" href="#">Schedule</a>
                 <a class="nav-item nav-link" href="#">Programs</a>
                 <a class="nav-item nav-link" href="#">Online Coaching</a>
                 <a class="nav-item nav-link" href="#">Blog</a>
-                <a class="nav-item nav-link" href="#">Store</a>
-            </div>
+                <a class="nav-item nav-link" href="#">Store</a> -->
+            </ul>
         </div>
     </nav>
 
@@ -66,20 +87,21 @@
 
     <div class="container text-muted">
         <div class="display-4 text-center py-5 my-4">About</div>
-        <div class="container" style="background-color:darkgray">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus illum doloremque iusto nobis, maiores
-                distinctio natus accusamus ipsum amet nemo saepe ratione, iure rem harum, pariatur dolorem voluptate
-                alias expedita.</p>
+        <div class="container" style="background-color:black">
+            <p>Mollit minim laboris mollit amet sit. Amet exercitation consectetur excepteur anim ut aliquip exercitation nulla fugiat ea consectetur. Laborum amet consequat adipisicing proident. Deserunt in aute ipsum occaecat cupidatat ullamco nostrud officia reprehenderit.</p>
 
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, perferendis, quod voluptatem autem
-                tempora vero consequatur est libero voluptates laboriosam unde necessitatibus harum eos voluptas ea
-                neque asperiores, atque suscipit!</p>
+            <p>Dolore voluptate velit ullamco officia anim nostrud velit anim consectetur ullamco. Anim laboris adipisicing et sit dolore laboris laborum labore est ipsum nisi pariatur duis. Irure cillum laboris id fugiat anim.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere labore magni tenetur aut delectus. Amet voluptatem perferendis illum fugit autem neque facilis nihil, tenetur optio culpa? Praesentium placeat quisquam dignissimos.</p>
+
+            
         </div>
     </div>
 
 
                         <!--Meet the coaches section  -->
 
+                        <!-- we need to remove text decoration from names and then style the names -->
     
     <div class="container text-muted">
         <div class="display-4 text-center py-5 my-4">Meet the Coaches</div>
@@ -149,10 +171,6 @@
     </div>
 
     <!-- end of the entire accordian section -->
-
-
-
-
 
     <!-- cards -->
 
