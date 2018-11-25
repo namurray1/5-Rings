@@ -25,18 +25,18 @@ body {
     opacity: 0.6;
 } */
 
-/* .video-container {
+.video-container {
     position: absolute;
     top: 0;
     left: 0;
     width: 100% !important;
     height: auto !important;
-} */
+}
 
-/* video {
+video {
     max-width: 100%;
     height: auto;
-} */
+}
 /* This allows you to have mobile responsive video */
 
 /* .color-overlay {
