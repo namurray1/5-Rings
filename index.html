@@ -12,7 +12,7 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
     <!-- Notes: move items in the navbar to the right(done). Add a dropdown on about to include schedule and pricing -->
 
@@ -28,10 +28,10 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <ul class="navbar-nav ml-auto">
                 <li nav-item active>
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#about">About</a>
                 </li>
                 <li nav-item>
-                    <a class="nav-link" href="#">Coaches</a>
+                    <a class="nav-link" href="#coaches">Coaches</a>
                 </li>
                 <li nav-item dropdown>
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown">Info</a>
@@ -86,25 +86,31 @@
     <!-- About -->
 
     <div class="container text-muted">
-        <div class="display-4 text-center py-5 my-4">About</div>
+        <div class="display-4 text-center py-5 my-4" id="about">About</div>
         <div class="container" style="background-color:black">
-            <p>Mollit minim laboris mollit amet sit. Amet exercitation consectetur excepteur anim ut aliquip exercitation nulla fugiat ea consectetur. Laborum amet consequat adipisicing proident. Deserunt in aute ipsum occaecat cupidatat ullamco nostrud officia reprehenderit.</p>
+            <p>Mollit minim laboris mollit amet sit. Amet exercitation consectetur excepteur anim ut aliquip
+                exercitation nulla fugiat ea consectetur. Laborum amet consequat adipisicing proident. Deserunt in aute
+                ipsum occaecat cupidatat ullamco nostrud officia reprehenderit.</p>
 
-            <p>Dolore voluptate velit ullamco officia anim nostrud velit anim consectetur ullamco. Anim laboris adipisicing et sit dolore laboris laborum labore est ipsum nisi pariatur duis. Irure cillum laboris id fugiat anim.</p>
+            <p>Dolore voluptate velit ullamco officia anim nostrud velit anim consectetur ullamco. Anim laboris
+                adipisicing et sit dolore laboris laborum labore est ipsum nisi pariatur duis. Irure cillum laboris id
+                fugiat anim.</p>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere labore magni tenetur aut delectus. Amet voluptatem perferendis illum fugit autem neque facilis nihil, tenetur optio culpa? Praesentium placeat quisquam dignissimos.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere labore magni tenetur aut delectus. Amet
+                voluptatem perferendis illum fugit autem neque facilis nihil, tenetur optio culpa? Praesentium placeat
+                quisquam dignissimos.</p>
 
-            
+
         </div>
     </div>
 
 
-                        <!--Meet the coaches section  -->
+    <!--Meet the coaches section  -->
 
-                        <!-- we need to remove text decoration from names and then style the names -->
-    
+    <!-- we need to remove text decoration from names and then style the names -->
+
     <div class="container text-muted">
-        <div class="display-4 text-center py-5 my-4">Meet the Coaches</div>
+        <div class="display-4 text-center py-5 my-4" id="coaches">Meet the Coaches</div>
 
         <div class="accordian" id="accordianExample">
             <div class="card">
@@ -220,6 +226,8 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+    <script src="public/js/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </body>
 
 </html>
