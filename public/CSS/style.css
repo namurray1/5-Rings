@@ -25,18 +25,33 @@ body {
     opacity: 0.6;
 } */
 
-.video-container {
+/* You can find information on how to make the video responsive on the utilities section of Bootstrap 4 on W3 schools */
+
+/* .video-container {
     position: absolute;
     top: 0;
     left: 0;
     width: 100% !important;
     height: auto !important;
+} */
+/* .jumbotron video {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-video {
+.jumbotron.container {
+    z-index: 2;
+    position: relative;
+} */
+
+/* video {
     max-width: 100%;
     height: auto;
-}
+} */
 /* This allows you to have mobile responsive video */
 
 /* .color-overlay {
